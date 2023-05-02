@@ -1,0 +1,52 @@
+.body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(179, 99, 179),rgb(234, 208, 234));
+    overflow: auto;
+    
+}
+.sendTools{
+    position: fixed;
+    bottom: 20px;
+}
+.chatbox{
+    margin: 50px;
+}
+
+.sender{
+    position: relative;
+    left: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    min-width: 50px;
+}
+
+.reciver{
+    position: relative;
+    right: 20px;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+    min-width: 50px;
+}
+
+.typingSpace{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 820px;
+}
+.typingSpace:focus{
+    outline: none;
+}
+.sendButton{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
